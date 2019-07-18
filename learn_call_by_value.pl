@@ -6,7 +6,7 @@ examples_call_by_value(Pos,Neg,NTerm) :-
 	],
   Neg = [],
   NTerm = [
-    eval(app(lam(x,var(y)),app(lam(x,app(var(x),var(x))),lam(x,app(var(x),var(x))))),var(y))
+    eval(app(lam(x,var(y)),app(lam(x,app(var(x),var(x))),lam(x,app(var(x),var(x))))),_)
           ].
 
 learn_call_by_value :-
