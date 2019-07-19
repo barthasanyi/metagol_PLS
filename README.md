@@ -18,21 +18,21 @@ The rest of the files contain tests/case studies, all of them include the "learn
 
 ``swipl -t "learn_pair" learn_pair.pl``
 
-: __learn_pair.pl__
+* __learn_pair.pl__\
   Learning the semantics of ``pair``s and ``fst``/``snd`` destructors.
-: __learn_pair_simplified.pl__
+* __learn_pair_simplified.pl__\
   A simplified version, included in the paper as an example.
-: __learn_list.pl__
+* __learn_list.pl__\
   Learning the semantics of lists, with ``cons``/``nil`` constructors and ``head``/``tail`` destructors.
-: __learn_if.pl__
+* __learn_if.pl__\
   Learn the semantics of conditional expressions in the form of ``if(A,thenelse(B,C))``.
-: __learn_basic.pl__
+* __learn_basic.pl__\
   Choose lazy evaluation strategy by default.
-: __learn_call_by_value.pl__
+* __learn_call_by_value.pl__\
   Choose the call_by_value (eager) evaluation strategy if non-terminating examples requires this.
-: __learn_all_atonce.pl__
+* __learn_all_atonce.pl__\
   Attempt to learn four tests (call_by_value, lists, pairs, if) at once. Will not terminate in a reasonable time. Demonstrates scalability issues.
-: __learn_all.pl__
+* __learn_all.pl__\
   Learn the same four tests, but this time sequentially. Demonstrates the sequential learning capability of the framework.
 
 
