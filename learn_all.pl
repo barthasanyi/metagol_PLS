@@ -5,7 +5,7 @@
 :- ensure_loaded('learn_pair.pl').
 :- ensure_loaded('learn_if.pl').
 
-main :-
+learn_all :-
   examples_call_by_value(P1,N1,NT1),
   examples_list(P2,N2,NT2),
   examples_pair(P3,N3,NT3),

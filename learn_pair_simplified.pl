@@ -9,7 +9,7 @@ eval( app( lam(x,fst(var(x))) ,
   Neg = [],
   NTerm = [].
 
-learn_pair :-
+learn_pair_simplified :-
   examples_pair(Pos,Neg,NTerm),
   learn(Pos,Neg,NTerm,Prog),
   pprint(Prog).
