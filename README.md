@@ -1,7 +1,7 @@
 # metagol_PLS
 
 Case studies for the paper submitted to the ILP 2019 conference titled
-__Towards meta-interpretive learning of programming language semantics__ . 
+_Towards meta-interpretive learning of programming language semantics_ . 
 
 Tested with SWI Prolog.
 
@@ -14,9 +14,9 @@ Source files:
    Specifies the BK (interpreter for the lambda calculus with simple integer arithmetic, and two auxiliary predicates, and the hypothesis space (the set of meta-rules). Included by all case studies.
 
 
-The rest of the files contain tests/case studies, all of them includes the "learn_lambda.pl" file. The target predicates for each test coincides with the name of the file (without the pl extension). So to run e.g. the test of learning the semantics of pairs, run
+The rest of the files contain tests/case studies, all of them include the "learn_lambda.pl" file. The target predicates for each test coincide with the name of the file (without the .pl extension). So to run e.g. the test of learning the semantics of pairs, run
 
-swipl -t "learn_pair" learn_pair.pl
+``swipl -t "learn_pair" learn_pair.pl``
 
 * __learn_pair.pl__
   Learning the semantics of pairs and fst/snd destructors.
