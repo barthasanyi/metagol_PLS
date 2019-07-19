@@ -2,7 +2,7 @@
 
 examples_if(Pos,Neg,NTerm) :-
   Pos = [
-     eval( if(app(lam(x,var(x)),true),thenelse(true,false)),true)
+     eval( if(app(lam(x,var(x)),true),thenelse(1,2)),1)
     ,eval(app(lam(x,var(x)),var(z)),var(z))
     ,eval(app(lam(x,var(y)),var(z)),var(y))
     ,eval(app(app(lam(x,lam(y,var(x))),var(z)),var(w)),var(z))
