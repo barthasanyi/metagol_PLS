@@ -19,11 +19,11 @@ The rest of the files contain tests/case studies, all of them include the "learn
 ``swipl -t "learn_pair" learn_pair.pl``
 
 * __learn_pair.pl__\
-  Learning the semantics of ``pair``s and ``fst``/``snd`` destructors.
+  Learn the semantics of ``pair``s and ``fst``/``snd`` destructors.
 * __learn_pair_simplified.pl__\
   A simplified version, included in the paper as an example.
 * __learn_list.pl__\
-  Learning the semantics of lists, with ``cons``/``nil`` constructors and ``head``/``tail`` destructors.
+  Learn the semantics of lists, with ``cons``/``nil`` constructors and ``head``/``tail`` destructors.
 * __learn_if.pl__\
   Learn the semantics of conditional expressions in the form of ``if(A,thenelse(B,C))``.
 * __learn_basic.pl__\
